@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(197, 219, 239);
+    background-color: gray;
     display: grid;
     grid-template-areas: 
     "header header header"
@@ -45,7 +45,7 @@ header{
 main{
     position: relative;
     z-index: -1;
-    background-color:  rgb(180, 210, 230);
+    background-color:white;
     grid-area: main;    
     box-shadow: 3 3px 3px rgb(180, 210, 230);
     
@@ -57,21 +57,23 @@ section{
     padding: 5%;
 }
 .box-content-section{
-    background-color: gray;
+    background-color: white;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 5px;
+    padding: 5px;
 }
 .box-content-section div{
     background-color: #fff;
+    
 }
 
 
 
 
 footer{
-    background-color: #fff;
+    background-color: transparent;
     grid-area: footer;
     box-shadow: 0 -3px 3px rgb(180, 210, 230);
 }
