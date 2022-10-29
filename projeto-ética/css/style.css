@@ -33,6 +33,11 @@ header{
 .wrapper-nav-btns ul li{
    cursor: pointer; 
 }
+.pau{
+    align-items: center;
+    width: 465px;
+
+}
 
 
 
@@ -40,26 +45,26 @@ header{
 main{
     position: relative;
     z-index: -1;
-    background-color: #fff;
-    grid-area: main;
+    background-color:  rgb(180, 210, 230);
+    grid-area: main;    
     box-shadow: 3 3px 3px rgb(180, 210, 230);
     
     
 }
 section{
-    border: 1px solid red;
+    border: 1px solid black;
     height: 420px;
     padding: 5%;
 }
 .box-content-section{
-    background-color: aquamarine;
+    background-color: gray;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 .box-content-section div{
-    background-color: blue;
+    background-color: #fff;
 }
 
 
