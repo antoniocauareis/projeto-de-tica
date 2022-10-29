@@ -24,6 +24,9 @@ header{
     grid-area: header;
     box-shadow: 0 3px 3px rgb(180, 210, 230);
 }
+.logo{
+    
+}
 .wrapper-nav-btns ul{
     display: flex;
     justify-content: space-evenly;
@@ -36,8 +39,8 @@ header{
 .pau{
     align-items: center;
     width: 465px;
-
 }
+
 
 
 
